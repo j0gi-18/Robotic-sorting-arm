@@ -16,6 +16,12 @@ The system is designed to handle packages with high accuracy and efficiency, usi
 ## Vision System with Object Detection
 The system employs multiple vision systems, each with a YOLO v5 object detection model trained on a custom dataset of labeled images. The model achieves a mean average precision (mAP) of 95%, ensuring reliable package identification. The trained model outputs bounding boxes that precisely localize detected packages within the captured images.
 
+<div style="display: flex; justify-content: space-between;">
+ <img src="images/test1.jpg" alt="Robotic sorting arm framework" width="30%" height="30%">
+ <img src="images/test2.png" alt="Robotic sorting arm framework" width="50%" height="100%">
+</div>
+
+
 ## Package detection mechanism
 Following successful package detection, a segregation block is used to analyze the detected packages and their corresponding bounding boxes. This block includes algorithms for classification, prioritization, and conflict resolution, generating precise coordinates for each package's location within the workspace.
 <p style="text-align: center;">
