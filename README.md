@@ -46,7 +46,7 @@ The system architecture can be broken down into the following components:
 ## Framework of the Robotic sorting arm
 <img src="images/framework.png" alt="Robotic sorting arm framework">
 
-## Top-view of the Robotic sorting arm
+## Top-view of the Robotic sorting arm and mounted gripper
 <div style="display: flex; justify-content: space-between;">
   <img src="images/topview.png" alt="Robotic sorting arm framework" width="48%" height="60%">
   <img src="images/gripper_mounted.png" alt="Robotic sorting arm framework" width="50%" height="100%">
